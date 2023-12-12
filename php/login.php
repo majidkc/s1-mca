@@ -6,12 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="login1.php" method="POST">
-    <h2>Login page</h2>
-    Username:<input type = "text" name = "user"> <br>
-    Password:<input type = "password" name = "password"><br>
-    <button type = "submit"> login </button><br>
-    <a href = "signup.php">Registration</a>
-    </form>
+    <form>
+    username<input type="text" name="username" id=""><br>
+    password<input type="password" name="password" id=""><br>
+    <input type="submit">
+</form>
 </body>
 </html>
